@@ -54,3 +54,29 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+/* App.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
